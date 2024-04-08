@@ -1,0 +1,334 @@
+body {
+    background-color: #1F1F23;
+    color: #ffffff;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  #hero-svg {
+    stroke: blue;
+    transition: all 200ms ease-in-out;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .logo span {
+    font-weight: 300;
+    padding-left: 8px;
+  }
+  
+  h1 {
+    font-size: 56px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  
+  h1 span {
+    font-size: 36px;
+    line-height: 1;
+    padding-bottom: 12px;
+  }
+  
+  .h1-small {
+    line-height: 1;
+    font-size: 36px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .subtitle {
+    font-size: 28px;
+    padding-bottom: 48px;
+  }
+  
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "neue-haas-grotesk-display", sans-serif; 
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "neue-haas-grotesk-display", sans-serif; 
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .header {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .header-logo {
+    margin-bottom: 4rem;
+    max-height: 1.75rem;
+  }
+  
+  .header svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 100.2vw;
+    height: 50vh;
+    min-height: 110%;
+  }
+  
+  .white-section {
+    background-color: #ffffff;
+    color: #1F1F23;
+  }
+  
+  .btn-wrapper {
+    margin-bottom: 2rem;
+  }
+  
+  .button-link {
+    background-color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    transition: all 300ms ease-in-out;
+    border-bottom: 0px solid red;
+    border-right: 0px solid red;
+  }
+  
+  .button-link:hover {
+    border-bottom: 8px solid red;
+    border-right: 8px solid red;
+  }
+  
+  .button-link-label {
+    transition: all 300ms ease-in-out;
+    border-bottom: 0px solid blue;
+  }
+  
+  .button-link:hover .button-link-label {
+    border-bottom: 2.5px solid blue;
+    opacity: 1;
+  }
+  
+  .value-prop-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+  }
+  
+  .value-prop {
+    min-width: 16rem;
+    max-width: 20rem;
+    margin-top: 2rem;
+  }
+  
+  .value-prop h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .value-prop img {
+    width: 80%;
+  }
+  
+  .value-prop-sub {
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 1.4;
+  }
+  
+  .section-what-youll-learn {
+    overflow: hidden;
+  }
+  
+  .learning-outcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .learning-outcome-copy {
+    width: 100%;
+  }
+  
+  .learning-outcome-img {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .html-example-img {
+    position: relative;
+    max-width: 256px;
+  }
+  
+  .html-example-main {
+    width: 256px;
+  }
+  
+  
+  .opening-tags {
+    position: absolute;
+    width: 148px;
+    left: -133px;
+    top: 11px;
+  }
+  
+  .closing-tags {
+    position: absolute;
+    right: 128px;
+    width: 167px;
+    right: -153px;
+    top: 13px;
+  }
+  
+  .learning-img {
+    max-width: 437px;
+    width: 100%;
+  }
+  
+  
+  .workshop-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 1.5rem;
+  }
+  
+  .workshop-cards-wrapper a img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+  }
+  
+  .workshop-contents-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #2E2E36;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12), 0px 6px 32px 0px rgba(0, 0, 0, 0.12), 0px 4px 20px 0px rgba(0, 0, 0, 0.22);
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .workshop-contents-card:hover {
+    background-color: #3C3C47;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.16), 0px 6px 36px 0px rgba(0, 0, 0, 0.18), 0px 8px 24px 0px rgba(0, 0, 0, 0.32);
+    .card-cta {
+      opacity: 1;
+      padding-left: 0;
+      transition-delay: 200ms;
+    }
+  }
+  
+  .workshop-card-copy {
+    padding: 1.25rem;
+  }
+  
+  .workshop-contents-card img {
+    width: 100%;
+    max-width: 256px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    
+  }
+  
+  .workshop-card-copy .contents-heading {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  .workshop-card-copy {
+    margin-bottom: 0;
+  }
+  
+  .contents-heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .contents-sub {
+    font-size: 14px;
+  }
+  
+  .card-cta {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0;
+    transition: all 250ms ease-in-out;
+    border-bottom: 2px solid white;
+    display: inline;
+    padding-left: 1rem;
+  }
+  
+  .darren-headshot {
+    max-width: 8rem;
+  }
+  
+  @media screen and (min-width: 40rem) {
+    section {
+      padding: 4rem;
+    }
+    
+    .learning-outcome {
+      flex-direction: column;
+    }
+    
+    .workshop-contents-card {
+      flex-direction: row;
+    }
+    
+    .workshop-cards-wrapper a img {
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 0;
+    }
+    
+    .learning-img {
+    max-width: 300px;
+    }
+  }
+  
+  ::selection {
+    color: white;
+    background: blue;
+  }
+  
+  @media screen and (min-width: 64rem) {
+    section {
+      padding: 8rem;
+    }
+    
+    .learning-outcome {
+      flex-direction: row;
+    }
+    
+    .workshop-contents-card {
+      flex-direction: row;
+    }
+  }
